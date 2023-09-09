@@ -1,0 +1,389 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.box {
+    width: 100%;
+    background-image: url(/img1.jpg);
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    /* background-color: rgb(203, 14, 14); */
+    display: flex;
+    align-items: center;
+
+}
+
+nav img {
+    width: 100px;
+    height: 24px;
+    margin-left: 20px;
+}
+
+nav h6 {
+    width: 30px;
+    /* margin-top: -19px; */
+    margin-left: 20px;
+    font-size: 26px;
+}
+
+nav h5 a {
+    display: flex;
+    font-size: 20px;
+    margin-left: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.btn a {
+    margin: 6px 10px;
+    color: rgb(114, 66, 66);
+    text-decoration: none;
+}
+
+.btn a:hover {
+    border: 1px solid black;
+}
+
+.btn1 a {
+    margin-left: 100px;
+    text-decoration: none;
+}
+
+.box1 {
+    width: 98%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgb(238, 221, 221);
+}
+
+.part h1 {
+    color: rgb(67, 67, 201);
+    margin-left: 90px;
+    margin-top: 80px;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.part p {
+    margin-left: 90px;
+    margin-top: 20px;
+    color: black;
+    font-size: 20px;
+}
+
+.part button {
+    width: 170px;
+    height: 45px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: blue;
+    border: none;
+    border-radius: 20px;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+.part button a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.part samp a {
+    display: flex;
+    margin-top: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 89px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.part samp a:hover {
+    color: rgb(82, 61, 61);
+}
+
+.part1 img {
+    width: 600px;
+    height: 500px;
+    margin-top: 66px;
+    margin-right: 40px;
+}
+
+.heading h1 {
+    margin-left: 380px;
+    margin-top: 70px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.column1 {
+    width: 30%;
+    height: 118vh;
+    margin-left: 14px;
+    border: 1px solid rgb(204, 194, 194);
+    border-radius: 26px;
+
+}
+
+.column1 img {
+    width: 366px;
+    height: 210px;
+}
+
+.column1 h2 {
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.column1 p {
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.column1 a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.column2 {
+    width: 30%;
+    height: 118vh;
+    margin-left: 29px;
+    border: 1px solid rgb(212, 206, 206);
+    border-radius: 26px;
+
+}
+
+.column2 img {
+    width: 366px;
+    height: 210px;
+    border-radius: 20px;
+}
+
+.column2 h2 {
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.column2 p {
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.column2 a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.column3 {
+    width: 30%;
+    height: 118vh;
+    margin-left: 29px;
+    border: 1px solid rgb(198, 193, 193);
+    border-radius: 26px;
+
+}
+
+.column3 img {
+    width: 366px;
+    height: 210px;
+    border-radius: 20px;
+}
+
+.column3 h2 {
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.column3 p {
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.column3 a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.link {
+    width: 100%;
+    height: 30vh;
+    /* background-color: cadetblue; */
+    display: flex;
+    align-items: center;
+}
+
+.link a {
+    margin-left: 30px;
+    color: rgb(66, 49, 49);
+}
+
+.page {
+    margin-left: 350px;
+    margin-top: 30px;
+}
+
+.page h3 {
+    margin-left: 290px;
+    font-size: 14px;
+}
+
+.p1 {
+    margin-left: 200px;
+}
+
+.box2 {
+    width: 100%;
+    height: 82vh;
+    display: flex;
+    background-color: rgb(241, 231, 231);
+}
+
+.table h3 {
+    margin-top: 35px;
+    margin-left: 70px;
+    color: rgb(65, 53, 53);
+}
+
+.first a {
+    display: flex;
+    text-decoration: none;
+    color: darkslategray;
+    margin: 20px;
+    font-size: 13px;
+    margin-left: 70px;
+}
+.table1 h3 {
+    margin-top: 35px;
+    margin-left: 50px;
+    color: rgb(65, 53, 53);
+}
+
+.second a {
+    display: flex;
+    text-decoration: none;
+    color: darkslategray;
+    margin: 20px;
+    font-size: 13px;
+    margin-left: 50px;
+}
+.table2 h3 {
+    margin-top: 35px;
+    margin-left: 50px;
+    color: rgb(65, 53, 53);
+}
+
+.three a {
+    display: flex;
+    text-decoration: none;
+    color: darkslategray;
+    margin: 20px;
+    font-size: 13px;
+    margin-left: 50px;
+}
+.table3 h3 {
+    margin-top: 35px;
+    margin-left: 10px;
+    color: rgb(65, 53, 53);
+}
+
+.four a {
+    display: flex;
+    text-decoration: none;
+    color: darkslategray;
+    margin: 20px;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.table4 h3 {
+    margin-top: 35px;
+    margin-left: 50px;
+    color: rgb(65, 53, 53);
+}
+
+.five a {
+    display: flex;
+    text-decoration: none;
+    color: darkslategray;
+    margin: 20px;
+    font-size: 13px;
+    margin-left: 50px;
+}
+.table5 h3 {
+    margin-top: 35px;
+    margin-left: 50px;
+    color: rgb(65, 53, 53);
+}
+
+.six a {
+    display: flex;
+    text-decoration: none;
+    color: darkslategray;
+    margin: 20px;
+    font-size: 13px;
+    margin-left: 50px;
+}
+.logo{
+    width: 100%;
+    /* background-color: brown; */
+    margin-top: -120px;
+}
+.icon input{
+    width: 180px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid darkslategrey;
+    margin-left: 10px;
+    padding: 0px 2px;
+}
+.icon input:hover{
+       border: 1px solid b;
+}
+.icon label{
+    margin-left: 70px;
+}
+.icon a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgb(59, 54, 54);
+    font-size: 13px;
+}
+.icon1 {
+   margin-left: 330px;
+   margin-top: 10px;
+}
+.icon1 a{
+    text-decoration: none;
+    color: rgb(54, 49, 49); 
+    margin-left: 20px;
+    font-size: 14px;
+}
